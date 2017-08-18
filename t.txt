@@ -1,0 +1,62 @@
+idx 0
+singleTr.html() 
+                    <th>OFERTA</th>
+                    <th>DEMANDA</th>
+                    <th>PRECIO</th>
+                    <th>CIERRE<br>ANTERIOR</th>
+                    <th>M&#xC1;XIMO</th>
+                    <th>M&#xCD;NIMO</th>
+                    <th>VAR<br>PORCENTUAL</th>
+                    <th>VAR<br>ABSOLUTA</th>
+                
+singleTh OFERTA
+singleTh DEMANDA
+singleTh PRECIO
+singleTh CIERREANTERIOR
+singleTh MÁXIMO
+singleTh MÍNIMO
+singleTh VARPORCENTUAL
+singleTh VARABSOLUTA
+idx 1
+singleTr.html() 
+                    <td class="description-value dataifx-currencies-description-bid">
+                        $2.989                    </td>
+                    <td class="description-value dataifx-currencies-description-ask">
+                        $2.988                    </td>
+                    <td class="description-value dataifx-currencies-description-price up">
+                        $2.989                    </td>
+                    <td class="description-value dataifx-currencies-description-lastClose">
+                        $2.972                    </td>
+                    <td class="description-value dataifx-currencies-description-max">
+                        $2.987                    </td>
+                    <td class="description-value dataifx-currencies-description-min">
+                        $2.968                    </td>
+                    <td class="description-value dataifx-currencies-description-percent up">
+                        0,55%                    </td>
+                    <td class="description-value dataifx-currencies-description-absolute up">
+                        $16,47                    </td>
+                
+singleTd $2.989
+singleTd $2.988
+singleTd $2.989
+singleTd $2.972
+singleTd $2.987
+singleTd $2.968
+singleTd 0,55%
+singleTd $16,47
+finalResult [ [ 'OFERTA',
+    'DEMANDA',
+    'PRECIO',
+    'CIERREANTERIOR',
+    'MÁXIMO',
+    'MÍNIMO',
+    'VARPORCENTUAL',
+    'VARABSOLUTA' ],
+  [ '$2.989',
+    '$2.988',
+    '$2.989',
+    '$2.972',
+    '$2.987',
+    '$2.968',
+    '0,55%',
+    '$16,47' ] ]

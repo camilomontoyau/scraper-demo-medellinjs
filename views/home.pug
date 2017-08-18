@@ -1,0 +1,15 @@
+extends layout.pug
+
+block content
+    if resultados && resultados.length > 0
+        table.table.table-hover
+            thead
+                tr
+                    each titulo in resultados[0]
+                        th #{titulo}
+
+            tbody
+                tr
+                    each precio in resultados[1]
+                        td #{precio}
+
